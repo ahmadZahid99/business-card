@@ -1,0 +1,205 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+body {
+  /* margin: 0; */
+  font-family: 'Inter', sans-serif;
+  background: #23252C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Info */
+
+.container {  
+  background: #1A1B21;
+  margin: 10px 0;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.image {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.image-name .label {
+  margin: 0;
+}
+
+.image-name{
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 21px;
+  margin-bottom: 6px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: #F3BF99;
+}
+
+.website {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+  text-align: center;
+  color: #F5F5F5;
+  margin-top: 8px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email {
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  /* white */
+  background: #FFFFFF;
+  /* gray/300 */
+  border: 1px solid #D1D5DB;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  margin-right: 17px;
+  
+}
+
+.email > span {
+  font-size: 14px;
+  color: #374151;
+}
+
+.linkedIn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  
+  width: 115px;
+  height: 34px;
+  
+  background: #5093E2;
+  /* shadow/sm */
+  
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.linkedIn > span {
+  font-size: 14px;   
+  color: #FFFFFF;
+}
+
+/* END Info */
+
+/* About */
+
+.about {
+  margin: 36px;
+}
+
+.aboutMe-title{
+  margin: 0;
+}
+
+.aboutMe-title {
+  align-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  color: #F5F5F5;
+}
+
+.aboutMe-details {
+  margin-top: 5px;
+  width: 247px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  /* or 15px */
+  color: #DCDCDC;  
+}
+
+
+/* END About */
+
+/* Interest */
+
+.interest {
+  margin: 36px;
+  margin-top: 26px;
+}
+
+.interest-title{
+  margin: 0;
+}
+
+.interest-title {
+  align-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  color: #F5F5F5;
+}
+
+.interest-details {
+  margin-top: 5px;
+  width: 247px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  /* or 15px */
+  color: #DCDCDC;  
+}
+
+/* END Interest */
+
+/* Footer */
+
+.footer {
+  width: 317px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer--icon {
+  margin: 18px;
+  cursor: pointer;
+}
+
+/* END Footer */
